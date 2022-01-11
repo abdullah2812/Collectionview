@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC12D60B278C11E600A5F767 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC12D60A278C11E600A5F767 /* MovieCollectionViewCell.swift */; };
+		DC12D60E278C13ED00A5F767 /* movieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC12D60D278C13ED00A5F767 /* movieModel.swift */; };
 		DCA7C0A7278A91C20021AAFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7C0A6278A91C20021AAFA /* AppDelegate.swift */; };
 		DCA7C0A9278A91C20021AAFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7C0A8278A91C20021AAFA /* SceneDelegate.swift */; };
 		DCA7C0AB278A91C20021AAFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA7C0AA278A91C20021AAFA /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC12D60A278C11E600A5F767 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC12D60D278C13ED00A5F767 /* movieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieModel.swift; sourceTree = "<group>"; };
 		DCA7C0A3278A91C20021AAFA /* runIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA7C0A6278A91C20021AAFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCA7C0A8278A91C20021AAFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				DCA7C0AF278A91C30021AAFA /* Assets.xcassets */,
 				DCA7C0B1278A91C30021AAFA /* LaunchScreen.storyboard */,
 				DCA7C0B4278A91C30021AAFA /* Info.plist */,
+				DC12D60A278C11E600A5F767 /* MovieCollectionViewCell.swift */,
+				DC12D60D278C13ED00A5F767 /* movieModel.swift */,
 			);
 			path = runIP;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			files = (
 				DCA7C0AB278A91C20021AAFA /* ViewController.swift in Sources */,
 				DCA7C0A7278A91C20021AAFA /* AppDelegate.swift in Sources */,
+				DC12D60E278C13ED00A5F767 /* movieModel.swift in Sources */,
 				DCA7C0A9278A91C20021AAFA /* SceneDelegate.swift in Sources */,
+				DC12D60B278C11E600A5F767 /* MovieCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63U9NC25XJ;
 				INFOPLIST_FILE = runIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 63U9NC25XJ;
 				INFOPLIST_FILE = runIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
