@@ -13,6 +13,7 @@ class ViewController: UIViewController, UICollectionViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Movie"
         // Do any additional setup after loading the view.
         
         //pengambilan data dari data dummy
@@ -38,7 +39,7 @@ extension ViewController:UICollectionViewDataSource{
 
 extension ViewController:UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 200, height: 300)
+        return CGSize(width: 190, height: 300)
     }
 }
 

@@ -15,5 +15,7 @@ class MovieCollectionViewCell: UICollectionViewCell {
     func data(movie:Movie) {
         imageview.image = movie.image
         lblJudul.text =  movie.name
+        imageview.layer.cornerRadius = 10
+        imageview.clipsToBounds = true
     }
 }

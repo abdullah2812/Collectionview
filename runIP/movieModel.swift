@@ -13,26 +13,11 @@ struct Movie {
 }
 
 let movies : [Movie] = [
-    Movie(name: "Fast an Farius", image: #imageLiteral(resourceName: "ok2")),
+    Movie(name: "DeadPool", image: #imageLiteral(resourceName: "ok2")),
     Movie(name: "Batman", image: #imageLiteral(resourceName: "ok3")),
-    Movie(name: "Spiderman", image: #imageLiteral(resourceName: "ok3")),
-    Movie(name: "Shang-Chi", image: #imageLiteral(resourceName: "ok2")),
-    Movie(name: "Fast an Farius", image: #imageLiteral(resourceName: "ok2")),
-    Movie(name: "Spiderman", image: #imageLiteral(resourceName: "ok3")),
-    Movie(name: "Shang-Chi", image: #imageLiteral(resourceName: "ok2")),
-    Movie(name: "Fast an Farius", image: #imageLiteral(resourceName: "ok2")),
-    Movie(name: "Spiderman", image: #imageLiteral(resourceName: "ok3")),
-    Movie(name: "Shang-Chi", image: #imageLiteral(resourceName: "ok2")),
-    Movie(name: "Fast an Farius", image: #imageLiteral(resourceName: "ok2")),
-    Movie(name: "Fast an Farius", image: #imageLiteral(resourceName: "stil")),
-    Movie(name: "Fast an Farius", image: #imageLiteral(resourceName: "ok2")),
-    Movie(name: "Spiderman", image: #imageLiteral(resourceName: "ok3")),
-    Movie(name: "Shang-Chi", image: #imageLiteral(resourceName: "ok2")),
-    Movie(name: "Fast an Farius", image: #imageLiteral(resourceName: "ok2")),
-    Movie(name: "Fast an Farius", image: #imageLiteral(resourceName: "ok2")),
-    Movie(name: "Fast an Farius", image: #imageLiteral(resourceName: "stil")),
-    Movie(name: "Fast an Farius", image: #imageLiteral(resourceName: "ok2")),
-    Movie(name: "Spiderman", image: #imageLiteral(resourceName: "ok3")),
-    Movie(name: "Shang-Chi", image: #imageLiteral(resourceName: "ok2")),
-    Movie(name: "Fast an Farius", image: #imageLiteral(resourceName: "ok2")),
+    Movie(name: "Wiro-Sableng", image: #imageLiteral(resourceName: "ok5")),
+    Movie(name: "Foxtrat-Six", image: #imageLiteral(resourceName: "ok7")),
+    Movie(name: "Hit & Run", image: #imageLiteral(resourceName: "ok4")),
+    Movie(name: "Merantau", image: #imageLiteral(resourceName: "ok6"))
+    
 ]
